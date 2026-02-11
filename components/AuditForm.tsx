@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Send, CheckCircle2, Sparkles, Instagram, Target, User, Mail, Phone } from 'lucide-react';
 import { AuditFormData } from '../types';
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwoTfNkeE4133UUANBObga7CmDklRVT5MMb548l93nObiYYWD8NKzs9QrpvQ3N9oXuo/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyaG2EDh7J6Uic7eUzXwqyd8iJ1pwklVwjrbehwX482aAc3zsfQdP59yGgYtmho0OFk/exec';
 
 const AuditForm: React.FC = () => {
   const [formData, setFormData] = useState<AuditFormData>({
